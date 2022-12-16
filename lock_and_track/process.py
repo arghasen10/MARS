@@ -33,7 +33,7 @@ def max_numObj(file, maxNumObj):
 
 def find_files_in_path(old_path):
     files = []
-    # old_path = 'data_collection/day2Argha/'
+    # old_path = 'data_collection/day2*/'
     all_files = os.listdir(old_path)
     for file in all_files:
         filename = file.split('.')
@@ -250,7 +250,7 @@ def plot_y_coord_vs_frame(file):
 # files = find_files_in_path('dataset/')
 dfs = process_json_to_df(['dataset/20220720_162220.json'])
 
-# dfs = pd.read_csv('/home/argha/guicomposer/runtime/gcruntime.v6/mmWave_Demo_Visualizer/data_collection/rpi_data/')
+# dfs = pd.read_csv('/home/*/guicomposer/runtime/gcruntime.v6/mmWave_Demo_Visualizer/data_collection/rpi_data/')
 print('len(dfs)', len(dfs))
 
 rangearrval = []

@@ -6,7 +6,7 @@ from collections import deque, defaultdict
 import scipy.cluster.hierarchy as hcluster
 
 data = [json.loads(val) for val in open(
-    "/home/argha/guicomposer/runtime/gcruntime.v6/mmWave_Demo_Visualizer/26072022_1733_Sandipan_Triple_roof.txt", "r")]
+    "/home/*/guicomposer/runtime/gcruntime.v6/mmWave_Demo_Visualizer/26072022_1733_Sandipan_Triple_roof.txt", "r")]
 
 df = pd.DataFrame()
 for d in data:
