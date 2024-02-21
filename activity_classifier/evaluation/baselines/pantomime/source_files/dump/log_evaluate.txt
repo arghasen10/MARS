@@ -1,0 +1,16 @@
+Namespace(batch_size=16, dataset='/scratch/work/salamid1/GDataset/UIST/easy/frame_based', dump_dir='dump', gpu=0, model='pointgest', model_path='/scratch/work/salamid1/trained_models/pointgest_easy/model.ckpt', normal=False, num_class=9, num_frame=8, num_point=64, num_votes=1, validation_or_test='test')
+The model restore process started.
+Model restored.
+eval mean loss: 0.526114
+eval accuracy: 0.834979
+eval avg class acc: 0.833325
+Scores have been saved to the dataset directory!
+         a:	0.960
+         b:	0.711
+         c:	0.392
+         d:	0.900
+         e:	0.922
+         f:	0.967
+         g:	0.753
+         h:	0.975
+         i:	0.920
