@@ -5,13 +5,7 @@ Developing a pervasive interactive smart space requires continuous detection of 
 More details on the experimental setup for different room experiments R1:office-cabin(4mx3m), R2:study-room(5mx8m) and R3:laboratory(12mx6.5m), different obstacles wooden-chairs, tables, metal-wardrobes, fiber-desks, desktop-computers, etc., users performing macro-micro activities together etc.is provided [here](./activity_classifier/evaluation/more_experiments/README.md).
 
 
-## Installation:
 
-To install use the following commands.
-```bash
-git clone --recurse-submodules https://github.com/arghasen10/mmDoppler.git
-pip install -r requirements.txt
-```
 ## Data Collection Setup
 
 To install mmWave Demo Visualizer from Texas Instruments, first go to this [link](https://dev.ti.com/gallery/view/mmwave/mmWave_Demo_Visualizer/) and select SDK [2.1.0](https://dev.ti.com/gallery/view/mmwave/mmWave_Demo_Visualizer/ver/2.1.0/). Now go to Help and select Download or Clone Visualizer. Finally you need to download and install the entire repository in your machine.
@@ -43,12 +37,17 @@ Finally using this tool you can save mmWave data in your local machine. Data wil
 | activity\_class | A broad categorical label of the type of activity: whether macro activity  or micro activity                                                               |
 
 
+## License and Ethical Approval
+
+The codebase and dataset is free to download and can be used with GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 for non-commercial purposes. All participants signed forms consenting to the use of collected driving data for non-commercial research purposes. The Institute's Ethical Review Board (IRB) at IIT Kharagpur, India has approved the data collection under the study title: <b>"Human Activity Monitoring in Pervasive Sensing Setupfield"</b>, with the Approval Number: <b>IIT/SRIC/DEAN/2023, dated July 31, 2023</b>. Moreover, we have made significant efforts to anonymize the participants to preserve privacy while providing the useful and necessary information to encourage future research with the dataset.
+
+
 ## Reference
 To refer <i>MARS</i> framework or the dataset, please cite the following work.
 
 BibTex Reference:
 ```
-@inproceedings{sen2023mars, 
+@inproceedings{sen2024mars, 
 title={Continuous Multi-user Activity Tracking via Room-Scale mmWave Sensing}, 
 author={Sen, Argha and Das, Anirban and Pradhan, Swadhin and Chakraborty, Sandip},
 booktitle={23rd ACM/IEEE Conference on Information Processing in Sensor Networks},
