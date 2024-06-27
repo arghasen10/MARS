@@ -9,7 +9,7 @@ Now go to Help and select Download or Clone Visualizer. FInally you need to down
 
 Now clone this repository with the following command.
 ```bash
-git clone https://anonymous.4open.science/r/mmWaveDemoVisualizer360/
+git clone https://github.com/arghasen10/mmWave-Demo-Visualizer.git
 
 ```
 Once you clone the repository copy all the content and paste it in the installaed mmWave-demo-visualizer directory i.e. **C:\Users\UserName\guicomposer\runtime\gcruntime.v11\mmWave_Demo_Visualizer**
